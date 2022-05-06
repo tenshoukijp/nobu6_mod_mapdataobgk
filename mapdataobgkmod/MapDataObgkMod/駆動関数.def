@@ -1,0 +1,5 @@
+LIBRARY	MapDataObgkMod
+EXPORTS
+	OnInitialize = On_初期化 @ 1
+	OnSelectingScenarioDaimyoStart = On_シナリオ大名選択直前 @ 2
+	OnMainGameStart = On_メインゲーム開始 @ 3

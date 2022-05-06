@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="城情報型 ⇐ScenarioModより">
+      <UniqueIdentifier>{999fe4fc-b0d9-42b2-a7bc-5880c04226ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="城情報型 ⇐ScenarioModより\ヘッダー ファイル">
+      <UniqueIdentifier>{ce335e6e-cb1d-44ac-b265-eaa133b35150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="城情報型 ⇐ScenarioModより\ソース ファイル">
+      <UniqueIdentifier>{ecbae797-d073-4384-a71c-6932dd83e0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="駆動系 ⇐３つだけサポートされる">
+      <UniqueIdentifier>{5f8c9e88-87ff-4f70-bcb6-d09686781f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{cbe983d1-5918-4f62-ac17-cc16ef1d6da9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerMessageBox.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="城情報型.cpp">
+      <Filter>城情報型 ⇐ScenarioModより\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="情報ポインタ定義.cpp">
+      <Filter>城情報型 ⇐ScenarioModより\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="駆動関数.cpp">
+      <Filter>駆動系 ⇐３つだけサポートされる</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapDataObgkMod.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ゲームデータ構造.h">
+      <Filter>城情報型 ⇐ScenarioModより\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="城情報型.h">
+      <Filter>城情報型 ⇐ScenarioModより\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="情報メモリアドレス.h">
+      <Filter>城情報型 ⇐ScenarioModより\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="最大数.h">
+      <Filter>城情報型 ⇐ScenarioModより\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerMessageBox.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="駆動関数.def">
+      <Filter>駆動系 ⇐３つだけサポートされる</Filter>
+    </None>
+  </ItemGroup>
+</Project>
